@@ -1,3 +1,7 @@
+import sys
+
+sys.path.insert(0, '/home/runner/work/DevOpsLab3/DevOpsLab3/src/')
+
 import pytest
 from typing import Tuple
 from Types import DataType
