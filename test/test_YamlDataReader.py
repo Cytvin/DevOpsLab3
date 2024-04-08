@@ -1,7 +1,7 @@
 import pytest
 from typing import Tuple
-from Types import DataType
-from YamlDataReader import YamlDataReader
+from src.Types import DataType
+from src.YamlDataReader import YamlDataReader
 
 
 class TestTextDataReader:
