@@ -29,4 +29,5 @@ jobs:
         pip install -r requirements.txt
     - name: Test with pytest
       run: |
+        pytest test/test_StudentRating.py
         pytest test/test_YamlDataReader.py
