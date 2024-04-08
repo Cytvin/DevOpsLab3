@@ -5,13 +5,13 @@ import pytest
 
 @pytest.fixture()
 def correct_arguments_string() -> Tuple[List[str], str]:
-    return ["-p", "/home/user/file.txt"], \
-        "/home/user/file.txt"
+    return ["-p", "/home/user/file.yml"], \
+        "/home/user/file.yaml"
 
 
 @pytest.fixture()
 def noncorrect_arguments_string() -> List[str]:
-    return ["/home/user/file.txt"]
+    return ["/home/user/file.yml"]
 
 
 def test_get_path_from_correct_arguments(
