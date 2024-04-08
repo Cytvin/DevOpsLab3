@@ -9,4 +9,5 @@
 Используемые технологии: Python
 
 UML-диаграмма классов:
+
 ![class diagram](./1.drawio.png)
