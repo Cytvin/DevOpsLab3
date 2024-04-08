@@ -29,5 +29,4 @@ jobs:
         pip install -r requirements.txt
     - name: Test with pytest
       run: |
-        pip install pytest pytest-cov
-        pytest test\\test_YamlDataReader.py
+        pytest test_YamlDataReader.py
