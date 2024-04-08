@@ -29,5 +29,4 @@ jobs:
         pip install -r requirements.txt
     - name: Test with pytest
       run: |
-        export PYTHONPATH=’./src’
         putest test/test_YamlDataReader.py
