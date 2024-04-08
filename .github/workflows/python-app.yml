@@ -30,4 +30,4 @@ jobs:
     - name: Test with pytest
       run: |
         pip install pytest pytest-cov
-        pytest test\test_YamlDataReader.py
+        pytest test\\test_YamlDataReader.py
