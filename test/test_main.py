@@ -10,7 +10,7 @@ import pytest
 @pytest.fixture()
 def correct_arguments_string() -> Tuple[List[str], str]:
     return ["-p", "/home/user/file.yml"], \
-        "/home/user/file.yaml"
+        "/home/user/file.yml"
 
 
 @pytest.fixture()
